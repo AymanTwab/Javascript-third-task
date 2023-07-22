@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="add-product mt-5">
+        <div class="container">
+            <div class="row text text-center mb-5">
+                <h2>Bookmarker</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 me-auto">
+                    <h3>Site Name</h3>
+                    <input id="siteName" class="w-100 form-control" type="text">
+                </div>
+                <div class="col-md-8 ms-auto">
+                    <h3>Site URL</h3>
+                    <input id="siteUrl" class="form-control" type="text" accept="image/png, image/gif, image/jpeg"
+                        alt="Submit" width="48" height="48">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3" id="submitCont">
+                    <button id="submitBtn" class="btn btn-dark mt-3">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-prev mt-5">
+        <div class="container">
+            <div class="row">
+                <table class="table table-light text text-center">
+                    <thead>
+                        <th class="col-1">Index</th>
+                        <th class="col-5">Site Name</th>
+                        <th class="col-2">Visit</th>
+                        <th class="col-2">Update</th>
+                        <th class="col-2">Delete</th>
+                    </thead>
+                    <tbody id="bookmarkTable">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

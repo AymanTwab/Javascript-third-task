@@ -1,0 +1,12 @@
+/* .prod-cont{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-image: url(../images/IMG_1862.JPG);
+    background-size: cover;
+    background-position: center center;
+} */
+
+.card {
+    border-radius: 0 !important;
+}
